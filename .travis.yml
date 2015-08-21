@@ -23,7 +23,7 @@ before_script:
    - sudo service apache2 restart
 
 script:
-  - curl http://127.0.0.1/index.php
+  - curl http://127.0.0.1/
 
 after_failure:
   # Output server log.
